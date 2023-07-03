@@ -31,7 +31,7 @@ body {
     border-radius: 10px;
 }
 
-
+/* estilos landing */
 a {
     font-size: 3rem;
     text-decoration: none;
@@ -94,12 +94,46 @@ a:hover {
     color: hsl(25, 47%, 15%);
 }
 
+/* fin estilos landing */
+/* estilos prueba 1 */
+.imagenPrueba {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.volver {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.volver a {
+    color: hsl(28, 10%, 53%);
+    font-size: 1rem;
+}
+
+.volver a:hover {
+    color: hsl(28, 10%, 53%);
+    text-shadow: 2px 2px 8px hsl(10, 79%, 65%);
+    font-size: 1rem;
+}
+
+/* fin estilos prueba 1 */
+
+/* estilos prueba 2 */
+/* fin estilos prueba 2*/
+
+/* estilos prueba 3 */
+/* fin estilos prueba 3 */
+
 .attribution a {
     font-size: 1rem;
     text-shadow: 2px 2px 8px black;
 }
 
 @media (min-width:575px) {
+
+    /* estilos landing */
     .layout {
         display: flex;
         width: 90%;
@@ -124,4 +158,16 @@ a:hover {
         width: 100%;
         text-align: center;
     }
+
+    /* fin estilos landing */
+
+    /* estilos prueba 1 */
+    .imagenPrueba {
+        width: 650px;
+        border-radius: 10px;
+
+
+    }
+
+    /* fin estilos prueba 1 */
 }
