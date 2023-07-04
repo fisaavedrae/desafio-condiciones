@@ -2,15 +2,39 @@
 <html lang="en">
 
 <head>
-    <title></title>
+    <title>Stickers</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.ico" />
+    <script src="https://kit.fontawesome.com/ec25724b35.js" crossorigin="anonymous"></script>
     <link href="./assets/css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-
+    <div class="container">
+        <div class="layout">
+            <div class="volver"><a href="index.html"><i class="fa-solid fa-arrow-left"></i> volver</a></div>
+            <div class="card-0">
+                Stickers
+            </div>
+            <div class="card-1">
+                <img src="./assets/images/arcoiris.png" class="sticker" />
+                <input type="number" id="sticker1" />
+            </div>
+            <div class="card-2">
+                <img src="./assets/images/rana.png" class="sticker" />
+                <input type="number" id="sticker2" />
+            </div>
+            <div class="card-3">
+                <img src="./assets/images/sabana.png" class="sticker" />
+                <input type="number" id="sticker3" />
+            </div>
+            <div class="card-4">
+                <div class="mensaje"></div>
+                <div class="boton" onclick="verificarStickers()">Verificar</div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="attribution">

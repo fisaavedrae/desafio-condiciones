@@ -55,9 +55,9 @@ a:hover {
 .card-1 {
     width: 300px;
     height: 300px;
-    /*background-image: url(../images/paper.jpg);*/
     background-color: hsl(10, 79%, 65%);
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -66,10 +66,10 @@ a:hover {
 .card-2 {
     width: 300px;
     height: 300px;
-    /*background-image: url(../images/bricks.jpg);*/
     background-color: hsl(186, 34%, 60%);
     display: flex;
     justify-content: center;
+    flex-flow: column;
     align-items: center;
     border-radius: 10px;
 }
@@ -77,10 +77,10 @@ a:hover {
 .card-3 {
     width: 300px;
     height: 300px;
-    /*background-image: url(../images/wood.jpg);*/
     background-color: hsl(28, 10%, 53%);
     display: flex;
     justify-content: center;
+    flex-flow: column;
     align-items: center;
     border-radius: 10px;
 }
@@ -121,9 +121,83 @@ a:hover {
 /* fin estilos prueba 1 */
 
 /* estilos prueba 2 */
+.sticker {
+    width: 200px;
+}
+
+input {
+    width: 50px;
+    height: 20px;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 5px;
+    border-color: hsl(25, 47%, 15%);
+}
+
+
+
+.boton {
+    width: 200px;
+    height: 30px;
+    background-color: hsl(27, 66%, 92%);
+    color: hsl(25, 47%, 15%);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    background-color: hsl(10, 79%, 65%);
+    cursor: pointer;
+}
+
+.mensaje {
+    width: 100%;
+    border-radius: 10px;
+
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: hsl(25, 47%, 15%);
+    font-size: 1rem;
+}
+
+.card-4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(25, 47%, 15%);
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+}
+
 /* fin estilos prueba 2*/
 
 /* estilos prueba 3 */
+.card-5 {
+    width: 300px;
+    height: 300px;
+    background-color: hsl(186, 34%, 60%);
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+select {
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: hsl(33, 100%, 98%);
+    color: hsl(25, 47%, 15%);
+}
+
 /* fin estilos prueba 3 */
 
 .attribution a {
@@ -165,9 +239,31 @@ a:hover {
     .imagenPrueba {
         width: 650px;
         border-radius: 10px;
-
-
     }
 
     /* fin estilos prueba 1 */
+
+    .card-4 {
+        font-size: 2rem;
+        width: 100%;
+        font-weight: 700;
+        color: hsl(25, 47%, 15%);
+        font-family: 'DM Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mensaje {
+        width: 100%;
+        border-radius: 10px;
+
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: hsl(25, 47%, 15%);
+        font-size: 1.5rem;
+    }
 }
