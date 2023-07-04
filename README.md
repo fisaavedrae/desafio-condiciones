@@ -1,11 +1,11 @@
 # Intro
 
-Proyecto de calculo de valor con JS, se utilizó Flex para el layout y la disposición de elementos y Media Query para hacer el sitio responsivo. Desarrolló con Mobile First
+En este desafío validaremos nuestros conocimientos sobre la manipulación del DOM y las instrucciones if else if y else y operadores lógicos., se utilizó Flex para el layout y la disposición de elementos y Media Query para hacer el sitio responsivo. Desarrolló con Mobile First
 
 # Responsive Breakpoint
 
-Mobile: 612px
-Desktop: sobre 612px
+Mobile: 575px
+Desktop: sobre 575px
 
 # Resolución
 
@@ -13,7 +13,7 @@ Para desarrollar estoy usando un macbook air con una resolución de 1440x900, si
 
 
 
-[link repo](https://github.com/fisaavedrae/Desafio-Calculando-el-total)
+[link repo](https://github.com/fisaavedrae/desafio-condiciones)
 
-[link live app](https://desafio-calculando-el-total.vercel.app/)
+[link live app](https://desafio-condiciones.vercel.app/)
 
