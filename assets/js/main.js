@@ -24,12 +24,18 @@ function verificarStickers() {
 
     let total = Number(sticker1.value) + Number(sticker2.value) + Number(sticker3.value);
     console.log(total);
-    if (total <= 10) {
-        mensaje.innerHTML = "Llevas " + total + " stickers";
-        mensaje.style.color = "hsl(186, 34%, 60%)";
+    if (sticker1.value >= 0 && sticker2.value >= 0 && sticker3.value >= 0) {
+        if (total <= 10) {
+            mensaje.innerHTML = "Llevas " + total + " stickers";
+            mensaje.style.color = "hsl(186, 34%, 60%)";
+        }
+        else {
+            mensaje.innerHTML = "Llevas demasiados stickers";
+            mensaje.style.color = "hsl(10, 79%, 65%)";
+        }
     }
     else {
-        mensaje.innerHTML = "Llevas demasiados stickers";
+        mensaje.innerHTML = "Debe ingresar numeros positivos";
         mensaje.style.color = "hsl(10, 79%, 65%)";
     }
 }
